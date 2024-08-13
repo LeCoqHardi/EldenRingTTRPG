@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elden Ring - Classes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px; /* Espacement entre les sections */
+        }
+        .text-table {
+            flex: 1; /* Permet au tableau de prendre l'espace disponible */
+            max-width: 50%; /* Ajuster pour s'assurer que le tableau ne dépasse pas la moitié de l'espace */
+            box-sizing: border-box; /* Inclut les marges et les bordures dans la largeur totale */
+        }
+        .image {
+            flex: 1; /* Permet à l'image de prendre l'espace disponible */
+            max-width: 50%; /* Ajuster pour que l'image prenne la moitié restante */
+            box-sizing: border-box; /* Inclut les marges et les bordures dans la largeur totale */
+        }
+        table {
+            border-collapse: collapse;
+            margin-top: 10px;
+            width: 100%; /* Le tableau prend la largeur de son conteneur */
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        /* Ajout des espacements spécifiques pour les colonnes */
+        td:first-child,
+        th:first-child {
+            padding-left: 16px;
+        }
+        td:last-child,
+        th:last-child {
+            padding-right: 16px;
+        }
+        /* Styles pour alterner l'ordre */
+        .container.reverse {
+            flex-direction: row-reverse;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block; /* Supprime l'espace en bas de l'image */
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="container">
+    <div class="text-table">
+        <h3>Vagabond</h3>
+        <p>The Vagabond has high Vigor, Strength and Dexterity. It starts with a sword, shield and halberd</p>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">STATS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>VIG</td>
+                    <td>15</td>
+                    <td>+1d8</td>
+                    <td>+3</td>
+                </tr>
+                <tr>
+                    <td>MIN</td>
+                    <td>10</td>
+                    <td>+1d8</td>
+                    <td>-3</td>
+                </tr>
+                <tr>
+                    <td>END</td>
+                    <td>11</td>
+                    <td>+1d8</td>
+                    <td>+5</td>
+                </tr>
+                <tr>
+                    <td>STR</td>
+                    <td>14</td>
+                    <td>+1d8</td>
+                    <td>+6</td>
+                </tr>
+                <tr>
+                    <td>DEX</td>
+                    <td>13</td>
+                    <td>+1d8</td>
+                    <td>+5</td>
+                </tr>
+                <tr>
+                    <td>INT</td>
+                    <td>9</td>
+                    <td>+1d8</td>
+                    <td>-6</td>
+                </tr>
+                <tr>
+                    <td>FAI</td>
+                    <td>9</td>
+                    <td>+1d8</td>
+                    <td>-3</td>
+                </tr>
+                <tr>
+                    <td>ARC</td>
+                    <td>7</td>
+                    <td>+1d8</td>
+                    <td>-6</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="image">
+        <img src="../assets/_class/Vagabond_class.webp" alt="Vagabond Image">
+    </div>
+</div>
+
+<div class="container reverse">
+    <div class="text-table">
+        <h3>Warrior</h3>
+        <p>Description de la classe suivante</p>
+        <table>
+          <thead>
+              <tr>
+                  <th colspan="4">STATS</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>VIG</td>
+                  <td>15</td>
+                  <td>+1d8</td>
+                  <td>+3</td>
+              </tr>
+              <tr>
+                  <td>MIN</td>
+                  <td>10</td>
+                  <td>+1d8</td>
+                  <td>-3</td>
+              </tr>
+              <tr>
+                  <td>END</td>
+                  <td>11</td>
+                  <td>+1d8</td>
+                  <td>+5</td>
+              </tr>
+              <tr>
+                  <td>STR</td>
+                  <td>14</td>
+                  <td>+1d8</td>
+                  <td>+6</td>
+              </tr>
+              <tr>
+                  <td>DEX</td>
+                  <td>13</td>
+                  <td>+1d8</td>
+                  <td>+5</td>
+              </tr>
+              <tr>
+                  <td>INT</td>
+                  <td>9</td>
+                  <td>+1d8</td>
+                  <td>-6</td>
+              </tr>
+              <tr>
+                  <td>FAI</td>
+                  <td>9</td>
+                  <td>+1d8</td>
+                  <td>-3</td>
+              </tr>
+              <tr>
+                  <td>ARC</td>
+                  <td>7</td>
+                  <td>+1d8</td>
+                  <td>-6</td>
+              </tr>
+          </tbody>
+      </table>
+    </div>
+    <div class="image">
+        <img src="../assets/_class/Warrior_class.webp" alt="Classe Suivante Image">
+    </div>
+</div>
+
+<div class="container">
+  <div class="text-table">
+      <h3>Vagabond</h3>
+      <p>The Vagabond has high Vigor, Strength and Dexterity. It starts with a sword, shield and halberd</p>
+      <table>
+          <thead>
+              <tr>
+                  <th colspan="4">STATS</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>VIG</td>
+                  <td>15</td>
+                  <td>+1d8</td>
+                  <td>+3</td>
+              </tr>
+              <tr>
+                  <td>MIN</td>
+                  <td>10</td>
+                  <td>+1d8</td>
+                  <td>-3</td>
+              </tr>
+              <tr>
+                  <td>END</td>
+                  <td>11</td>
+                  <td>+1d8</td>
+                  <td>+5</td>
+              </tr>
+              <tr>
+                  <td>STR</td>
+                  <td>14</td>
+                  <td>+1d8</td>
+                  <td>+6</td>
+              </tr>
+              <tr>
+                  <td>DEX</td>
+                  <td>13</td>
+                  <td>+1d8</td>
+                  <td>+5</td>
+              </tr>
+              <tr>
+                  <td>INT</td>
+                  <td>9</td>
+                  <td>+1d8</td>
+                  <td>-6</td>
+              </tr>
+              <tr>
+                  <td>FAI</td>
+                  <td>9</td>
+                  <td>+1d8</td>
+                  <td>-3</td>
+              </tr>
+              <tr>
+                  <td>ARC</td>
+                  <td>7</td>
+                  <td>+1d8</td>
+                  <td>-6</td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+  <div class="image">
+      <img src="../assets/_class/Hero_class.webp" alt="Vagabond Image">
+  </div>
+</div>
+
+<div class="container reverse">
+  <div class="text-table">
+      <h3>Warrior</h3>
+      <p>Description de la classe suivante</p>
+      <table>
+        <thead>
+            <tr>
+                <th colspan="4">STATS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>VIG</td>
+                <td>15</td>
+                <td>+1d8</td>
+                <td>+3</td>
+            </tr>
+            <tr>
+                <td>MIN</td>
+                <td>10</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>END</td>
+                <td>11</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>STR</td>
+                <td>14</td>
+                <td>+1d8</td>
+                <td>+6</td>
+            </tr>
+            <tr>
+                <td>DEX</td>
+                <td>13</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>INT</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+            <tr>
+                <td>FAI</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>ARC</td>
+                <td>7</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+  <div class="image">
+      <img src="../assets/_class/Warrior_class.webp" alt="Classe Suivante Image">
+  </div>
+</div>
+
+<div class="container">
+<div class="text-table">
+    <h3>Vagabond</h3>
+    <p>The Vagabond has high Vigor, Strength and Dexterity. It starts with a sword, shield and halberd</p>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">STATS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>VIG</td>
+                <td>15</td>
+                <td>+1d8</td>
+                <td>+3</td>
+            </tr>
+            <tr>
+                <td>MIN</td>
+                <td>10</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>END</td>
+                <td>11</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>STR</td>
+                <td>14</td>
+                <td>+1d8</td>
+                <td>+6</td>
+            </tr>
+            <tr>
+                <td>DEX</td>
+                <td>13</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>INT</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+            <tr>
+                <td>FAI</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>ARC</td>
+                <td>7</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="image">
+    <img src="../assets/_class/Hero_class.webp" alt="Vagabond Image">
+</div>
+</div>
+
+<div class="container reverse">
+  <div class="text-table">
+      <h3>Warrior</h3>
+      <p>Description de la classe suivante</p>
+      <table>
+        <thead>
+            <tr>
+                <th colspan="4">STATS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>VIG</td>
+                <td>15</td>
+                <td>+1d8</td>
+                <td>+3</td>
+            </tr>
+            <tr>
+                <td>MIN</td>
+                <td>10</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>END</td>
+                <td>11</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>STR</td>
+                <td>14</td>
+                <td>+1d8</td>
+                <td>+6</td>
+            </tr>
+            <tr>
+                <td>DEX</td>
+                <td>13</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>INT</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+            <tr>
+                <td>FAI</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>ARC</td>
+                <td>7</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+  <div class="image">
+      <img src="../assets/_class/Warrior_class.webp" alt="Classe Suivante Image">
+  </div>
+</div>
+
+<div class="container">
+<div class="text-table">
+    <h3>Vagabond</h3>
+    <p>The Vagabond has high Vigor, Strength and Dexterity. It starts with a sword, shield and halberd</p>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">STATS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>VIG</td>
+                <td>15</td>
+                <td>+1d8</td>
+                <td>+3</td>
+            </tr>
+            <tr>
+                <td>MIN</td>
+                <td>10</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>END</td>
+                <td>11</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>STR</td>
+                <td>14</td>
+                <td>+1d8</td>
+                <td>+6</td>
+            </tr>
+            <tr>
+                <td>DEX</td>
+                <td>13</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>INT</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+            <tr>
+                <td>FAI</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>ARC</td>
+                <td>7</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="image">
+    <img src="../assets/_class/Hero_class.webp" alt="Vagabond Image">
+</div>
+</div>
+
+<div class="container reverse">
+  <div class="text-table">
+      <h3>Warrior</h3>
+      <p>Description de la classe suivante</p>
+      <table>
+        <thead>
+            <tr>
+                <th colspan="4">STATS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>VIG</td>
+                <td>15</td>
+                <td>+1d8</td>
+                <td>+3</td>
+            </tr>
+            <tr>
+                <td>MIN</td>
+                <td>10</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>END</td>
+                <td>11</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>STR</td>
+                <td>14</td>
+                <td>+1d8</td>
+                <td>+6</td>
+            </tr>
+            <tr>
+                <td>DEX</td>
+                <td>13</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>INT</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+            <tr>
+                <td>FAI</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>ARC</td>
+                <td>7</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+  <div class="image">
+      <img src="../assets/_class/Warrior_class.webp" alt="Classe Suivante Image">
+  </div>
+</div>
+
+<div class="container">
+<div class="text-table">
+    <h3>Vagabond</h3>
+    <p>The Vagabond has high Vigor, Strength and Dexterity. It starts with a sword, shield and halberd</p>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">STATS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>VIG</td>
+                <td>15</td>
+                <td>+1d8</td>
+                <td>+3</td>
+            </tr>
+            <tr>
+                <td>MIN</td>
+                <td>10</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>END</td>
+                <td>11</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>STR</td>
+                <td>14</td>
+                <td>+1d8</td>
+                <td>+6</td>
+            </tr>
+            <tr>
+                <td>DEX</td>
+                <td>13</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>INT</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+            <tr>
+                <td>FAI</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>ARC</td>
+                <td>7</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="image">
+    <img src="../assets/_class/Hero_class.webp" alt="Vagabond Image">
+</div>
+</div>
+
+<div class="container reverse">
+  <div class="text-table">
+      <h3>Warrior</h3>
+      <p>Description de la classe suivante</p>
+      <table>
+        <thead>
+            <tr>
+                <th colspan="4">STATS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>VIG</td>
+                <td>15</td>
+                <td>+1d8</td>
+                <td>+3</td>
+            </tr>
+            <tr>
+                <td>MIN</td>
+                <td>10</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>END</td>
+                <td>11</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>STR</td>
+                <td>14</td>
+                <td>+1d8</td>
+                <td>+6</td>
+            </tr>
+            <tr>
+                <td>DEX</td>
+                <td>13</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>INT</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+            <tr>
+                <td>FAI</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>ARC</td>
+                <td>7</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+  <div class="image">
+      <img src="../assets/_class/Warrior_class.webp" alt="Classe Suivante Image">
+  </div>
+</div>
+
+<div class="container">
+<div class="text-table">
+    <h3>Vagabond</h3>
+    <p>The Vagabond has high Vigor, Strength and Dexterity. It starts with a sword, shield and halberd</p>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">STATS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>VIG</td>
+                <td>15</td>
+                <td>+1d8</td>
+                <td>+3</td>
+            </tr>
+            <tr>
+                <td>MIN</td>
+                <td>10</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>END</td>
+                <td>11</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>STR</td>
+                <td>14</td>
+                <td>+1d8</td>
+                <td>+6</td>
+            </tr>
+            <tr>
+                <td>DEX</td>
+                <td>13</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>INT</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+            <tr>
+                <td>FAI</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>ARC</td>
+                <td>7</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="image">
+    <img src="../assets/_class/Hero_class.webp" alt="Vagabond Image">
+</div>
+</div>
+
+<div class="container reverse">
+  <div class="text-table">
+      <h3>Warrior</h3>
+      <p>Description de la classe suivante</p>
+      <table>
+        <thead>
+            <tr>
+                <th colspan="4">STATS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>VIG</td>
+                <td>15</td>
+                <td>+1d8</td>
+                <td>+3</td>
+            </tr>
+            <tr>
+                <td>MIN</td>
+                <td>10</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>END</td>
+                <td>11</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>STR</td>
+                <td>14</td>
+                <td>+1d8</td>
+                <td>+6</td>
+            </tr>
+            <tr>
+                <td>DEX</td>
+                <td>13</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>INT</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+            <tr>
+                <td>FAI</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>ARC</td>
+                <td>7</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+  <div class="image">
+      <img src="../assets/_class/Warrior_class.webp" alt="Classe Suivante Image">
+  </div>
+</div>
+
+<div class="container">
+<div class="text-table">
+    <h3>Vagabond</h3>
+    <p>The Vagabond has high Vigor, Strength and Dexterity. It starts with a sword, shield and halberd</p>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">STATS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>VIG</td>
+                <td>15</td>
+                <td>+1d8</td>
+                <td>+3</td>
+            </tr>
+            <tr>
+                <td>MIN</td>
+                <td>10</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>END</td>
+                <td>11</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>STR</td>
+                <td>14</td>
+                <td>+1d8</td>
+                <td>+6</td>
+            </tr>
+            <tr>
+                <td>DEX</td>
+                <td>13</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>INT</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+            <tr>
+                <td>FAI</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>ARC</td>
+                <td>7</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="image">
+    <img src="../assets/_class/Hero_class.webp" alt="Vagabond Image">
+</div>
+</div>
+
+<div class="container reverse">
+  <div class="text-table">
+      <h3>Warrior</h3>
+      <p>Description de la classe suivante</p>
+      <table>
+        <thead>
+            <tr>
+                <th colspan="4">STATS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>VIG</td>
+                <td>15</td>
+                <td>+1d8</td>
+                <td>+3</td>
+            </tr>
+            <tr>
+                <td>MIN</td>
+                <td>10</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>END</td>
+                <td>11</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>STR</td>
+                <td>14</td>
+                <td>+1d8</td>
+                <td>+6</td>
+            </tr>
+            <tr>
+                <td>DEX</td>
+                <td>13</td>
+                <td>+1d8</td>
+                <td>+5</td>
+            </tr>
+            <tr>
+                <td>INT</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+            <tr>
+                <td>FAI</td>
+                <td>9</td>
+                <td>+1d8</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>ARC</td>
+                <td>7</td>
+                <td>+1d8</td>
+                <td>-6</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+  <div class="image">
+      <img src="../assets/_class/Warrior_class.webp" alt="Classe Suivante Image">
+  </div>
+</div>
+
+</body>
+</html>
