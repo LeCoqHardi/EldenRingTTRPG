@@ -50,8 +50,7 @@ Elden Ring TTRPG features various damage types, each with its own potential effe
 * **Strike:** Effective against : Armored Enemies, Rocky / Brittle Creatures, Undead. 
 * **Slash:** Effective against : Fleshy Creatures, Unarmored / Lightly Armored Enemies. 
 * **Pierce:** Effective against : Scaly Creatures, Light / Medium Armored Enemies. 
-
-**Example:** A katana deals slash damages.
+    * *Example: A katana deals slash damages.*
 
 #### Elemental Damages
 * **Magic:** Ineffective against : Creatures created by sorcery, Sorcerers.
@@ -59,8 +58,7 @@ Elden Ring TTRPG features various damage types, each with its own potential effe
 * **Lightning:** Ineffective against : Ancient Dragons, Miranda Sprouts, Rock-themed enemies, Undead.
 * **Red-Lightning:** Ineffetive against : Ancient Dragons. 
 * **Holy:** Inffective against : End-game Bosses, God-type enemies, Holy living enemies.
-
-**Example:** Dragonlord Placidussax deals Red-Lightning damages.
+    * *Example: Dragonlord Placidussax deals Red-Lightning damages.*
 
 #### Status effects (needs buildup)
 * **Poison:** When inflicted by Poison, the victim suffers from damage-over-time. The exact damage and duration varies with source of Poison.
@@ -69,12 +67,12 @@ Elden Ring TTRPG features various damage types, each with its own potential effe
 * **Frostbite:** When inflicted by Frostbite, the victim suffers HP damage, damage negation penalty to all sources, and slowed Stamina recovery speed. The debuff lasts x turns, but can be cured prematurely by receiving Fire damage.
 * **Sleep:** When inflicted by Sleep, the victim falls asleep (3 turns) or briefly loses their balance.
 * **Madness:** When consumed by Madness, the victim is briefly stunned and suffers damage based on max HP and FP.
-* **Deathblight:** When taken by Death Blight, spires of pure death rapidly grow from their dead body, killing the victim immediately. 
+* **Deathblight:** When taken by Death Blight, spores of pure death rapidly grow from their dead body, killing the victim immediately. 
+    * *Example: A Servant of Rot deals Scarlet Rot buildup.*
 
 ### Buildup System
 A buildup system implies that an affliction doesn't immediately take full effect but gradually increases in severity over time. This can be achieved by introducing a "buildup meter" or "stack counter" for each affliction.
-
-**Example:** A Servant of Rot deals scarlet rot buildup. 
+    * *Example: Dragonlord Placidussax deals Red-Lightning damages.*
 
 ### Saving Throws
 
@@ -82,12 +80,8 @@ Saving throws are resistance checks made by a character to resist the effects of
 
 * **Strength (STR):** Resisting being pulled, pushed, or grappled.
 * **Dexterity (DEX):** Resisting being hit by ranged attacks, traps, or sudden attacks.
-* **Constitution (CON):** Resisting poisons, diseases, and damage over time.
-* **Intelligence (INT):** Resisting illusions, mind-affecting effects, and spells that require concentration.
-* **Wisdom (WIS):** Resisting charms, fear, and other mental effects.
-* **Charisma (CHA):** Resisting being charmed or frightened.
-
-**Example:** A Servant of Rot casts a *Pest Threads* spell. The target must make a *Constitution* saving throw to resist.
+* **Constitution (CON):** Resisting poisons, Scarlet Rot, Blood Loss, Frostbite, Sleep, Madness and Deathblight.
+    * *Example: A Servant of Rot casts a *Pest Threads* spell. The target must make a *Constitution* saving throw to resist.*
 
 **Damage Vulnerabilities, Resistances, and Immunities:**
 
@@ -96,6 +90,5 @@ Many creatures and objects have vulnerabilities, resistances, or immunities to c
 * **Vulnerability:** Double damage from a specific type.
 * **Resistance:** Half damage from a specific type.
 * **Immunity:** No damage from a specific type.
-
-**Example:** A Servant of Rot is *vulnerable* to fire damage but *resistant* to scarlet rot damage.
+    *   *Example: A Servant of Rot is <u>vulnerable</u> to fire damage but <u>resistant</u> to scarlet rot damage.*
 
