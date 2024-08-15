@@ -1,3 +1,5 @@
+<img src="../assets/_banners/banner_figthing.png">
+
 ## Elden Ring TTRPG Fighting System
 
 Elden Ring TTRPG uses the DnD's fighting system, but adapted with Elden Ring items, buffes,debuffes and afflictions.
