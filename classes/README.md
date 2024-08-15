@@ -1,4 +1,4 @@
-<img src="../assets/_banners/banner_classes.png">
+<img src="../assets/_banners/banner_class.png">
 
 # Elden Ring TTRPG Classes
 
