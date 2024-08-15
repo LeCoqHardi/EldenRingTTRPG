@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitrine des NPCs</title>
+    <link rel="stylesheet" href="npcs.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vitrine des NPCs</h1>
+        <div class="cards-container">
+            <div class="card" onclick="openCard(this)">
+                <div class="card-front">
+                    <img src="../assets/_npcs/card_back.png" alt="Carte avant">
+                </div>
+                <div class="card-back">
+                    <img src="../assets/_npcs/melina.jpg" alt="Carte arrière">
+                    <div class="text-overlay">
+                    </div>
+                </div>
+            </div>
+            <div class="card" onclick="openCard(this)">
+                <div class="card-front">
+                    <img src="../assets/_npcs/card_back.png" alt="Carte avant">
+                </div>
+                <div class="card-back">
+                    <img src="../assets/_npcs/melina.jpg" alt="Carte arrière">
+                    <div class="text-overlay">
+                    </div>
+                </div>
+            </div>
+            <div class="card" onclick="openCard(this)">
+                <div class="card-front">
+                    <img src="../assets/_npcs/card_back.png" alt="Carte avant">
+                </div>
+                <div class="card-back">
+                    <img src="../assets/_npcs/melina.jpg" alt="Carte arrière">
+                    <div class="text-overlay">
+                    </div>
+                </div>
+            </div>
+            <div class="card" onclick="openCard(this)">
+                <div class="card-front">
+                    <img src="../assets/_npcs/card_back.png" alt="Carte avant">
+                </div>
+                <div class="card-back">
+                    <img src="../assets/_npcs/melina.jpg" alt="Carte arrière">
+                    <div class="text-overlay">
+                    </div>
+                </div>
+            </div>
+            <div class="card" onclick="openCard(this)">
+                <div class="card-front">
+                    <img src="../assets/_npcs/card_back.png" alt="Carte avant">
+                </div>
+                <div class="card-back">
+                    <img src="../assets/_npcs/melina.jpg" alt="Carte arrière">
+                    <div class="text-overlay">
+                    </div>
+                </div>
+            </div>
+            <!-- Ajoutez d'autres cartes ici pour chaque NPC -->
+        </div>
+    </div>
+
+    <!-- Pop-up Modal -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <div id="popup-text"></div>
+        </div>
+    </div>
+
+    <script src="npcs.js"></script>
+</body>
+</html>
