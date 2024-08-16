@@ -3,23 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elden Ring Classes</title>
+    <title>Elden Ring TTRPG - Classes</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/LeCoqHardi/EldenRingTTRPG/main/assets/_website/logo.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mantinia+Regular&family=Arial&display=swap">
     <style>
+        body, h1,h2,h3,h4,h5,h6 {font-family: "Arial" sans-serif}
+        .w3-row-padding img {margin-bottom: 12px}
+
+        /* Style pour la barre de navigation horizontale en haut */
+        .w3-navbar {
+            background: #222;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        .w3-navbar a {
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .w3-navbar a:hover {
+            background-color: #575757;
+        }
+
+        .w3-navbar img {
+            width: 50px;
+            margin-right: 10px;
+        }
+
+        #main {
+            padding-top: 60px; /* Ajuste cette valeur selon la hauteur de la navbar */
+        }
+
+        @media only screen and (max-width: 600px) {
+            .w3-navbar {
+                font-size: 14px;
+            }
+            .w3-navbar img {
+                width: 40px;
+            }
+            #main {
+                padding-top: 50px; /* Ajuste cette valeur pour les petits écrans */
+            }
+        }
+
         body {
-            font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #000; /* fond noir */
+            color: #fff; /* texte blanc */
         }
 
         .container {
             display: flex;
             flex-wrap: wrap;
             margin: 20px;
-            background-color: #fff;
+            background-color: #333; /* fond gris foncé */
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
         }
 
         .container.reverse {
@@ -33,6 +85,7 @@
 
         .text-table p {
             margin-bottom: 20px;
+            color: #ccc;
         }
 
         table {
@@ -42,13 +95,13 @@
         }
 
         th, td {
-            border: 1px solid #ddd;
+            border: 1px solid #555;
             padding: 8px;
             text-align: center;
         }
 
         th {
-            background-color: #f4f4f4;
+            background-color: #444;
             font-weight: bold;
         }
 
@@ -67,7 +120,7 @@
 
         h1, h2 {
             text-align: center;
-            color: #333;
+            color: #fff;
         }
 
         h2 {
@@ -77,277 +130,150 @@
 </head>
 <body>
 
-    <h1>CLASSES</h1>
-    <h2>Elden Ring Classes</h2>
-    <p>You can choose a class between 14 different classes.</p>
-
-    <!-- Vagabond -->
-    <div class="container">
-        <div class="text-table">
-            <p>The Vagabond has high Vigor, Strength, and Dexterity. It starts with a sword, shield, and halberd.</p>
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="4">STATS</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>VIG</td>
-                        <td>15</td>
-                        <td>+1d8</td>
-                        <td>+3</td>
-                    </tr>
-                    <tr>
-                        <td>MIN</td>
-                        <td>10</td>
-                        <td>+1d8</td>
-                        <td>-3</td>
-                    </tr>
-                    <tr>
-                        <td>END</td>
-                        <td>11</td>
-                        <td>+1d8</td>
-                        <td>+5</td>
-                    </tr>
-                    <tr>
-                        <td>STR</td>
-                        <td>14</td>
-                        <td>+1d8</td>
-                        <td>+6</td>
-                    </tr>
-                    <tr>
-                        <td>DEX</td>
-                        <td>13</td>
-                        <td>+1d8</td>
-                        <td>+5</td>
-                    </tr>
-                    <tr>
-                        <td>INT</td>
-                        <td>9</td>
-                        <td>+1d8</td>
-                        <td>-6</td>
-                    </tr>
-                    <tr>
-                        <td>FAI</td>
-                        <td>9</td>
-                        <td>+1d8</td>
-                        <td>-3</td>
-                    </tr>
-                    <tr>
-                        <td>ARC</td>
-                        <td>7</td>
-                        <td>+1d8</td>
-                        <td>-6</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="image">
-            <img src="https://raw.githubusercontent.com/LeCoqHardi/EldenRingTTRPG/main/assets/_class/Vagabond_class.webp" alt="Vagabond Image">
-        </div>
+    <!-- Navbar en haut -->
+    <div class="w3-navbar">
+        <img src="https://raw.githubusercontent.com/LeCoqHardi/EldenRingTTRPG/main/assets/_website/logo.png" alt="Logo">
+        <a href="#">HOME</a>
+        <a href="https://lecoqhardi.github.io/EldenRingTTRPG/classes/CLASSES.html" target="_blank">CLASSES</a>
+        <a href="#rules">RULES</a>
+        <a href="#contact">CONTACT</a>
     </div>
 
-    <!-- Warrior -->
-    <div class="container reverse">
-        <div class="text-table">
-            <p>Description de la classe suivante.</p>
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="4">STATS</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>VIG</td>
-                        <td>11</td>
-                        <td>+1d8</td>
-                        <td>+2</td>
-                    </tr>
-                    <tr>
-                        <td>MIN</td>
-                        <td>12</td>
-                        <td>+1d8</td>
-                        <td>-2</td>
-                    </tr>
-                    <tr>
-                        <td>END</td>
-                        <td>11</td>
-                        <td>+1d8</td>
-                        <td>+5</td>
-                    </tr>
-                    <tr>
-                        <td>STR</td>
-                        <td>10</td>
-                        <td>+1d8</td>
-                        <td>+3</td>
-                    </tr>
-                    <tr>
-                        <td>DEX</td>
-                        <td>16</td>
-                        <td>+1d8</td>
-                        <td>+7</td>
-                    </tr>
-                    <tr>
-                        <td>INT</td>
-                        <td>10</td>
-                        <td>+1d8</td>
-                        <td>-5</td>
-                    </tr>
-                    <tr>
-                        <td>FAI</td>
-                        <td>8</td>
-                        <td>+1d8</td>
-                        <td>-4</td>
-                    </tr>
-                    <tr>
-                        <td>ARC</td>
-                        <td>9</td>
-                        <td>+1d8</td>
-                        <td>-5</td>
-                    </tr>
-                </tbody>
-            </table>
+    <div class="w3-padding-large" id="main">
+
+        <!-- Vagabond -->
+        <div class="container">
+            <div class="text-table">
+                <p>The Vagabond has high Vigor, Strength, and Dexterity. It starts with a sword, shield, and halberd.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4">STATS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>VIG</td>
+                            <td>15</td>
+                            <td>+1d8</td>
+                            <td>+3</td>
+                        </tr>
+                        <tr>
+                            <td>MIN</td>
+                            <td>10</td>
+                            <td>+1d8</td>
+                            <td>-3</td>
+                        </tr>
+                        <tr>
+                            <td>END</td>
+                            <td>11</td>
+                            <td>+1d8</td>
+                            <td>+5</td>
+                        </tr>
+                        <tr>
+                            <td>STR</td>
+                            <td>14</td>
+                            <td>+1d8</td>
+                            <td>+6</td>
+                        </tr>
+                        <tr>
+                            <td>DEX</td>
+                            <td>13</td>
+                            <td>+1d8</td>
+                            <td>+5</td>
+                        </tr>
+                        <tr>
+                            <td>INT</td>
+                            <td>9</td>
+                            <td>+1d8</td>
+                            <td>-6</td>
+                        </tr>
+                        <tr>
+                            <td>FAI</td>
+                            <td>9</td>
+                            <td>+1d8</td>
+                            <td>-3</td>
+                        </tr>
+                        <tr>
+                            <td>ARC</td>
+                            <td>7</td>
+                            <td>+1d8</td>
+                            <td>-6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="image">
+                <img src="https://raw.githubusercontent.com/LeCoqHardi/EldenRingTTRPG/main/assets/_class/Vagabond_class.webp" alt="Vagabond Image">
+            </div>
         </div>
-        <div class="image">
-            <img src="https://raw.githubusercontent.com/LeCoqHardi/EldenRingTTRPG/main/assets/_class/Warrior_class.webp" alt="Warrior Image">
+
+        <!-- Warrior -->
+        <div class="container reverse">
+            <div class="text-table">
+                <p>Description de la classe suivante.</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="4">STATS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>VIG</td>
+                            <td>11</td>
+                            <td>+1d8</td>
+                            <td>+2</td>
+                        </tr>
+                        <tr>
+                            <td>MIN</td>
+                            <td>12</td>
+                            <td>+1d8</td>
+                            <td>-2</td>
+                        </tr>
+                        <tr>
+                            <td>END</td>
+                            <td>11</td>
+                            <td>+1d8</td>
+                            <td>+5</td>
+                        </tr>
+                        <tr>
+                            <td>STR</td>
+                            <td>10</td>
+                            <td>+1d8</td>
+                            <td>+3</td>
+                        </tr>
+                        <tr>
+                            <td>DEX</td>
+                            <td>16</td>
+                            <td>+1d8</td>
+                            <td>+7</td>
+                        </tr>
+                        <tr>
+                            <td>INT</td>
+                            <td>10</td>
+                            <td>+1d8</td>
+                            <td>-5</td>
+                        </tr>
+                        <tr>
+                            <td>FAI</td>
+                            <td>8</td>
+                            <td>+1d8</td>
+                            <td>-4</td>
+                        </tr>
+                        <tr>
+                            <td>ARC</td>
+                            <td>9</td>
+                            <td>+1d8</td>
+                            <td>-5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="image">
+                <img src="https://raw.githubusercontent.com/LeCoqHardi/EldenRingTTRPG/main/assets/_class/Warrior_class.webp" alt="Warrior Image">
+            </div>
         </div>
     </div>
-
-    <!-- Hero -->
-    <div class="container">
-        <div class="text-table">
-            <p>The Hero has high Vigor, Strength, and Endurance. It starts with a great axe and a shield.</p>
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="4">STATS</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>VIG</td>
-                        <td>14</td>
-                        <td>+1d8</td>
-                        <td>+4</td>
-                    </tr>
-                    <tr>
-                        <td>MIN</td>
-                        <td>9</td>
-                        <td>+1d8</td>
-                        <td>-5</td>
-                    </tr>
-                    <tr>
-                        <td>END</td>
-                        <td>12</td>
-                        <td>+1d8</td>
-                        <td>+6</td>
-                    </tr>
-                    <tr>
-                        <td>STR</td>
-                        <td>16</td>
-                        <td>+1d8</td>
-                        <td>+7</td>
-                    </tr>
-                    <tr>
-                        <td>DEX</td>
-                        <td>9</td>
-                        <td>+1d8</td>
-                        <td>+3</td>
-                    </tr>
-                    <tr>
-                        <td>INT</td>
-                        <td>7</td>
-                        <td>+1d8</td>
-                        <td>-7</td>
-                    </tr>
-                    <tr>
-                        <td>FAI</td>
-                        <td>8</td>
-                        <td>+1d8</td>
-                        <td>-6</td>
-                    </tr>
-                    <tr>
-                        <td>ARC</td>
-                        <td>11</td>
-                        <td>+1d8</td>
-                        <td>+4</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="image">
-            <img src="https://raw.githubusercontent.com/LeCoqHardi/EldenRingTTRPG/main/assets/_class/Hero_class.webp" alt="Hero Image">
-        </div>
-    </div>
-
-    <!-- Bandit -->
-    <div class="container reverse">
-        <div class="text-table">
-            <p>Description de la classe suivante.</p>
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="4">STATS</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>VIG</td>
-                        <td>15</td>
-                        <td>+1d8</td>
-                        <td>+3</td>
-                    </tr>
-                    <tr>
-                        <td>MIN</td>
-                        <td>10</td>
-                        <td>+1d8</td>
-                        <td>-3</td>
-                    </tr>
-                    <tr>
-                        <td>END</td>
-                        <td>11</td>
-                        <td>+1d8</td>
-                        <td>+5</td>
-                    </tr>
-                    <tr>
-                        <td>STR</td>
-                        <td>14</td>
-                        <td>+1d8</td>
-                        <td>+6</td>
-                    </tr>
-                    <tr>
-                        <td>DEX</td>
-                        <td>13</td>
-                        <td>+1d8</td>
-                        <td>+5</td>
-                    </tr>
-                    <tr>
-                        <td>INT</td>
-                        <td>9</td>
-                        <td>+1d8</td>
-                        <td>-6</td>
-                    </tr>
-                    <tr>
-                        <td>FAI</td>
-                        <td>9</td>
-                        <td>+1d8</td>
-                        <td>-3</td>
-                    </tr>
-                    <tr>
-                        <td>ARC</td>
-                        <td>7</td>
-                        <td>+1d8</td>
-                        <td>-6</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="image">
-            <img src="https://raw.githubusercontent.com/LeCoqHardi/EldenRingTTRPG/main/assets/_class/Bandit_class.webp" alt="Bandit Image">
-        </div>
-    </div>
-
 </body>
 </html>
