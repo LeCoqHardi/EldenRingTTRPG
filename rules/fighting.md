@@ -72,7 +72,9 @@ Elden Ring TTRPG features various damage types, each with its own potential effe
 
 ### Buildup System
 A buildup system implies that an affliction doesn't immediately take full effect but gradually increases in severity over time. This can be achieved by introducing a "buildup meter" or "stack counter" for each affliction.
-    * *Example: Dragonlord Placidussax deals Red-Lightning damages.*
+The buildup meter works with tokens. When a specific number of tokens is reached, depending on your character robustness, you get hit by the affliction. You can use a saving throw to not get hit by the affliction.
+    * *Example: Morgott's "Cursed-Blood Slice" deals blood loss buildup, if it hits, you get 2 tokens of blood loss.*
+
 
 ### Saving Throws
 
@@ -80,7 +82,7 @@ Saving throws are resistance checks made by a character to resist the effects of
 
 * **Strength (STR):** Resisting being pulled, pushed, or grappled.
 * **Dexterity (DEX):** Resisting being hit by ranged attacks, traps, or sudden attacks.
-* **Constitution (CON):** Resisting poisons, Scarlet Rot, Blood Loss, Frostbite, Sleep, Madness and Deathblight.
+* **Robustness (ROB):** Resisting poisons, Scarlet Rot, Blood Loss, Frostbite, Sleep, Madness and Deathblight.
     * *Example: A Servant of Rot casts a *Pest Threads* spell. The target must make a *Constitution* saving throw to resist.*
 
 **Damage Vulnerabilities, Resistances, and Immunities:**
